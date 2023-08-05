@@ -1,0 +1,19 @@
+{
+  "name": "init-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "tsc --watch",
+    "build": "tsc --watch",
+    "dev:start": "nodemon --config ./nodemon.json",
+    "dev": "npm-run-all -p dev:**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
